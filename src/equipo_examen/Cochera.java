@@ -50,7 +50,7 @@ public class Cochera {
         Coche suCoche = new Coche ("amarillo", 100, 3.2f);
             suCoche.avanzar(1000,120);
           
-            Motor suMotor = new Motor("Hibrido", 106);
+        Motor suMotor = new Motor("Hibrido", 106);
             
             suMotor.marca="Nissan";
             suMotor.getMarca();            

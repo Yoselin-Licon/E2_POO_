@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package equipo_examen;
 
 /**
  *
  * @author alber
  */
 
+package equipo_examen;
 
 public  class Motor {
+    
     private String tipo;
     private int caballos;
+    
     String marca="ford";
     
     

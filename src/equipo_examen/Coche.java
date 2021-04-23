@@ -8,17 +8,19 @@ public class Coche {
     private int velocidad;
     private float tamaño;
     
-
+public Coche (){
+    
+}
    public Coche(String color, int velocidad, float tamaño){
        this.color =color;
        this.velocidad = velocidad;
        this.tamaño = tamaño;
        
-       
-       
+
        System.out.println("El color de tu carro es: "+color);
        System.out.println("vas a la velocidad de: "+velocidad+" km/h");
        System.out.println("El tamaño de tu carro es: "+tamaño+" metros de largo");
+       
    }
    
    
@@ -37,6 +39,8 @@ public class Coche {
    public void parar(){
        int a=3, b=0;
        b=++a;
+       int suma=a+b;
+       System.err.println("Tienes"+suma);
        System.out.println("tienes: "+b+ " llantas");
        
        if (b>=4){
