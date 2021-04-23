@@ -1,10 +1,7 @@
 
 package equipo_examen;
 
-/**
- *
- * @author alber
- */
+
 public class Coche {
     
     private String color;
