@@ -7,11 +7,8 @@ E) Constructores y destructores
 F) Sobrecarga de métodos
 G) Sobrecarga de operadores (unario y binario).
 */
-
-// Prueba 23
-
 package equipo_examen;
-
+//Prueba 2
 /**
 Equipo 2:
 * Yoselin Andrea Licon Arguello
