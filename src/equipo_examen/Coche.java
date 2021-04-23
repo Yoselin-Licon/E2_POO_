@@ -15,11 +15,7 @@ public class Coche {
     private int velocidad;
     private float tamaño;
     
-    
-    
-    
 
-   
    public Coche(String color, int velocidad, float tamaño){
        this.color =color;
        this.velocidad = velocidad;
