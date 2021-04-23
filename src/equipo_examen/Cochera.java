@@ -8,7 +8,7 @@ F) Sobrecarga de métodos
 G) Sobrecarga de operadores (unario y binario).
 */
 package equipo_examen;
-//Prueba 2
+//Si se ve  jaja
 /**
 Equipo 2:
 * Yoselin Andrea Licon Arguello
