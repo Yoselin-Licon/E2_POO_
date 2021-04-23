@@ -27,26 +27,33 @@ public class Cochera {
         Coche miCoche = new Coche("verde", 80, 3.8f);
           miCoche.avanzar();
           miCoche.parar();
-            Motor mimotor = new Motor("diesel", 500);
-            mimotor.marca="ford";
-            mimotor.getMarca();            
-            System.out.println("Marca del coche: "+mimotor.getMarca());    
-    System.out.println("");
+          
+            Motor miMotor = new Motor("diesel", 500);
+            
+            miMotor.marca="ford";
+            miMotor.getMarca();  
+            
+            System.out.println("Marca del coche: "+miMotor.getMarca());    
+    
+            System.out.println("");
     
         Coche tuCoche = new Coche("rojo", 120, 4.1f);
-          tuCoche.avanzar(1000);
-            Motor tumotor = new Motor("electrico", 490);
-            tumotor.marca="Tesla";
-            tumotor.getMarca();            
-            System.out.println("Marca del coche: "+tumotor.getMarca());    
-    System.out.println("");
+             tuCoche.avanzar(1000);
+             
+            Motor tuMotor = new Motor("electrico", 490);
+            tuMotor.marca="Tesla";
+            tuMotor.getMarca();            
+            System.out.println("Marca del coche: "+tuMotor.getMarca());    
+            System.out.println("");
     
         Coche suCoche = new Coche ("amarillo", 100, 3.2f);
           suCoche.avanzar(1000,120);
-            Motor sumotor = new Motor("Hibrido", 106);
-            sumotor.marca="Nissan";
-            sumotor.getMarca();            
-            System.out.println("Marca del coche: "+sumotor.getMarca());
+          
+            Motor suMotor = new Motor("Hibrido", 106);
+            
+            suMotor.marca="Nissan";
+            suMotor.getMarca();            
+            System.out.println("Marca del coche: "+suMotor.getMarca());
 
     }
       

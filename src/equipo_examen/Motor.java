@@ -9,6 +9,8 @@ package equipo_examen;
  *
  * @author alber
  */
+
+
 public  class Motor {
     private String tipo;
     private int caballos;
@@ -19,7 +21,8 @@ public  class Motor {
         this.tipo=tipo;
         this.caballos=caballos;
         
-        System.out.println("El motor es de tipo: "+ tipo+"\nTiene una potencia de: "+caballos+ "HP");
+        System.out.println("El motor es de tipo: "+ tipo+
+                          "\nTiene una potencia de: "+caballos+ "HP");
         
     }
     
