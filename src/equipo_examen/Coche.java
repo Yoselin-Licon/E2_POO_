@@ -42,6 +42,15 @@ public class Coche {
        b=++a;
        System.out.println("tienes: "+b+ " llantas");
        
+
+       
+       if (b>=4){
+           System.err.println("El carro puede circular");
+       }else{
+            System.err.println("El carro no puede circular");
+       }
+       
+               
    }
 
    

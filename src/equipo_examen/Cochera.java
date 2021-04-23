@@ -25,29 +25,30 @@ public class Cochera {
     public static void main(String[] args) {
         
         Coche miCoche = new Coche("verde", 80, 3.8f);
+         
           miCoche.avanzar();
           miCoche.parar();
           
-            Motor miMotor = new Motor("diesel", 500);
+        Motor miMotor = new Motor("diesel", 500);
             
             miMotor.marca="ford";
             miMotor.getMarca();  
             
             System.out.println("Marca del coche: "+miMotor.getMarca());    
-    
-            System.out.println("");
+            System.out.println(" ");
     
         Coche tuCoche = new Coche("rojo", 120, 4.1f);
              tuCoche.avanzar(1000);
              
-            Motor tuMotor = new Motor("electrico", 490);
+        Motor tuMotor = new Motor("electrico", 490);
             tuMotor.marca="Tesla";
-            tuMotor.getMarca();            
-            System.out.println("Marca del coche: "+tuMotor.getMarca());    
+            tuMotor.getMarca();    
+            
+            System.out.println("Marca del coche: " + tuMotor.getMarca());    
             System.out.println("");
     
         Coche suCoche = new Coche ("amarillo", 100, 3.2f);
-          suCoche.avanzar(1000,120);
+            suCoche.avanzar(1000,120);
           
             Motor suMotor = new Motor("Hibrido", 106);
             
